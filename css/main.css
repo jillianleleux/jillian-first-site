@@ -2,4 +2,5 @@
 body {
     color: red;
     background-color: pink;
+    background-image: url(../img/green-bg.jpg);
 }
