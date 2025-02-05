@@ -1,10 +1,22 @@
 /* Place CSS styles here */
 body {
-    color: black;
+    color:rgb(29, 96, 29);
     text-align: center;
-    font-size: medium;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: pink;
-    font-size: 50px;
+    font-size: xx-large;
+    background-color:pink;
     background-image: url(../img/green-bg.jpg);
+    font-weight: 500;
+    font-family:"Megrim", serif;     
+}
+ h2{color:whitesmoke;
+    font-size: smaller;
+text-align:left;
+font-weight:300; 
+font-family: "Rubik Bubbles", serif;
+}
+h3{ color: black;
+text-align: center;
+font-family: "Esteban", serif;
+font-size: small;
+font-weight: 200;
 }
