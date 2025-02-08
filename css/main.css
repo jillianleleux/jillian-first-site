@@ -1,22 +1,84 @@
 /* Place CSS styles here */
 body {
     color:rgb(29, 96, 29);
-    text-align: center;
-    font-size: xx-large;
-    background-color:pink;
+    text-shadow: 2px 2px 3px rgb(34, 65, 42);
+    font-size:xx-large;
+    letter-spacing: 5px;
+    background-color:rgb(47, 84, 55);
     background-image: url(../img/green-bg.jpg);
-    font-weight: 500;
+    font-weight: 2000;
     font-family:"Megrim", serif;     
 }
- h2{color:whitesmoke;
-    font-size: smaller;
-text-align:left;
-font-weight:300; 
-font-family: "Rubik Bubbles", serif;
+h1{
+    text-align:center;
 }
-h3{ color: black;
+h2{
+    text-align: center;
+}
+h2 a {
+    text-decoration: none; 
+    color: rgb(1, 41, 11); 
+    font-family: "Freckle Face", serif;
+    margin: 0 10px; 
+    
+}
+
+h2 a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255); /* Slightly different green */
+}
+
+h3{word-spacing: 20px;
+    text-align: center;
+    font-family: "Freckle Face", serif;
+color: rgb(1, 41, 11);}
+
+h5{ color: black;
 text-align: center;
 font-family: "Esteban", serif;
-font-size: small;
+font-size:medium;
 font-weight: 200;
+letter-spacing: 3px;
 }
+.styled-list{
+    list-style: none;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+  gap: 20px;
+}
+.image-container{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height:200%;
+    align-items: center;
+    justify-content: center;
+
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 8px;
+}
+.image-number{
+    position: absolute;
+    top:50%;
+    left:-25px;
+
+}
+.image-description{
+    text-align: center;
+    font-size:20px;
+    font-family:"Esteban", serif;
+    color:black;
+    margin-top: 5px;
+}
+.inspiration{
+    font-family: "Estaban", serif;
+    font-size: 27px;
+   
+}
+
